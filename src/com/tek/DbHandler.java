@@ -17,7 +17,7 @@ class DbHandler{
 	    try{
 			
 			FileInputStream fis = null;
-			fis = new FileInputStream("CustomerMgmt/database.properties");
+			fis = new FileInputStream("database.properties");
 			props.load(fis);
 			
 			// load the Driver Class
