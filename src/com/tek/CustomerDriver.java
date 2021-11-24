@@ -9,8 +9,9 @@ public class CustomerDriver {
 		cu.printCustomers();
 
         String str="insert into customer values(1,'balaji','dev')";
-        CustomerDao cd = new CustomerDao();
-        cd.insertQuery(str);
+        System.out.println(str);
+       // CustomerDao cd = new CustomerDao();
+       // cd.insertQuery(str);
 	}
 
 }
